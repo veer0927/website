@@ -1,0 +1,118 @@
+#title {
+  background-image: linear-gradient(to right bottom, #d61e36, #de2030, #e52428, #ec291f, #f22f12);
+}
+.container-fluid {
+  padding: 3% 15%!important;
+}
+h1{
+  font-size: 3.5rem!important;
+  line-height: 1.5!important;
+  font-family: Praise;
+  color: #fff;
+}
+h2{
+  font-family: Montserrat-Bold 900 italic;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: Montserrat-Bold 700;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar{
+  padding-bottom: 4.5rem!important;
+}
+.navbar-brand{
+   font-size: 2.5rem!important;
+   font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 70%;
+  transform: rotate(15deg);
+  position: relative;
+  left: 20%;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+}
+.icon{
+  color: #DB3678;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #DF2E2E;
+}
+#testimonials{
+  text-align: center;
+  background-color: #DB3678;
+  color: #fff;
+}
+.testimonials-class{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #DB3678;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#Pricing{
+  padding: 100px;
+  text-align: center;
+}
+.Pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#Register{
+  background-color: #DF2E2E;
+  padding: 7% 15%;
+  color: #fff;
+  text-align: center;
+}
+.register-text{
+  font-family: Montserrat-Bold 900 italic;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
